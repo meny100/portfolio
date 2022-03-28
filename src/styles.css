@@ -21,8 +21,18 @@ footer {
   margin: 0;
   padding: 20px;
 }
-#footer-text{
-  font-size: 20px;
+
+.footer-text p{
+  margin-bottom: 24px;
+}
+
+.footer-text p a{
+  margin-left: 18px;
+  margin-right: 18px;
+}
+
+.fa-whatsapp{
+  color: lightgreen;
 }
 
 nav {
@@ -43,7 +53,7 @@ li {
   text-decoration: none;
 }
 
-.knowledge-list{
+.skills-list{
   display: block;
   list-style-type: circle;
 }
@@ -61,6 +71,10 @@ p {
   margin: 0;
   font-size: 30px;
   font-weight: 300;
+}
+
+.fa-file-user{
+  color: white;
 }
 
 .subtext {
@@ -123,7 +137,17 @@ p {
   border-radius: 40%;
 }
 .social {
-  margin: 30px;
+  margin: 35px;
+}
+
+.cv-download{
+  margin-top: 120px;
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.cv-download a{
+  margin-left: 0;
 }
 
 .sub-section {
@@ -167,10 +191,19 @@ p {
   justify-content: space-around;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1024px) {
   .project-container {
     display: flex;
     flex-wrap: wrap;
+  }
+
+  .project-card {
+    width: 600px;
+    margin-bottom: 30px;
+  }
+
+  .project-card p{
+    font-size: 20px;
   }
 
   .about-section{
@@ -218,13 +251,13 @@ a {
   outline: 0;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1024px) {
   .hamburger {
     display: block;
+    font-size: 5vh;
     border: 0;
     background-color: transparent;
     color: white;
-    font-size: 30px;
     margin: 20px;
     align-self: flex-end;
   }
@@ -233,6 +266,9 @@ a {
     display: none;
     background-color: #2b2c38;
     margin: 0ppx;
+  }
+  .skills-list{
+    background-color: #f8f8f8;
   }
 
   ul.show {
