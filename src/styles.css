@@ -234,15 +234,6 @@ a {
   color: white;
 }
 
-.app-link{
-  margin-top: 20px;
-}
-
-.app-link-text{
-  font-weight: 700;
-  color: rgb(136, 177, 74);
-}
-
 .hamburger {
   display: none;
 }
