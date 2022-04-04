@@ -181,9 +181,9 @@ p {
 
 .project-card {
   width: 400px;
-  height: 430px;
+  height: 450px;
   box-shadow: 5px 5px 20px rgb(197, 195, 195);
-  margin: 10px;
+  margin: 15px;
 }
 
 .project-container {
@@ -202,8 +202,13 @@ p {
     margin-bottom: 30px;
   }
 
+  .project-card h3{
+    font-size: 2em;
+    margin-bottom: 0;
+  }
+
   .project-card p{
-    font-size: 20px;
+    font-size: 1.4em;
   }
 
   .about-section{
@@ -273,7 +278,7 @@ a {
   }
   
   nav ul li a{
-    font-size: 36px;
+    font-size: 50px;
   }
 
   .logo {
