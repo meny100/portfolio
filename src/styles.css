@@ -57,7 +57,11 @@ li {
   text-decoration: none;
 }
 
+.skills{
+  margin-top: 70px;
+}
 .skills-list{
+  margin-top: 10px;
   display: block;
   list-style-type: circle;
 }
